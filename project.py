@@ -4,7 +4,7 @@ from tabulate import tabulate as t
 
 def main():
     api_key = "YOUR YOUTUBE API KEY"
-    channel_id = input("Channel ID: ")  # UCJQJAI7IjbLcpsjWdSzYz0Q
+    channel_id = input("Channel ID: ")  # Example Channel Id: UCJQJAI7IjbLcpsjWdSzYz0Q
     youtube = build("youtube", "v3", developerKey=api_key)
 
     data = get_channel_details(youtube, channel_id)
