@@ -3,7 +3,7 @@ import csv
 from tabulate import tabulate as t
 
 def main():
-    api_key = "AIzaSyCW9LUHbaBw7tnbKqVYbVPoq7VlVs1LFIk"
+    api_key = "YOUR YOUTUBE API KEY"
     channel_id = input("Channel ID: ")  # UCJQJAI7IjbLcpsjWdSzYz0Q
     youtube = build("youtube", "v3", developerKey=api_key)
 
